@@ -25,7 +25,7 @@ Aplicar conceitos de eletrônica digital, sistemas embarcados e automação.
 
 Equipe
 
-Nome: Alderi Araújo
+Nome: Alderi Araújo 
 Nome: José Augusto
 
 Licença
