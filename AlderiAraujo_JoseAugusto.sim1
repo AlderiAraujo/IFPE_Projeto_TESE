@@ -13,7 +13,7 @@
 <item itemtype="Servo" CircId="Servo-6" mainComp="false" Show_id="true" Show_Val="false" Pos="52,-68" rotation="0" hflip="1" vflip="-1" label="Servo-6" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _s/60º" MinPulse="1000 _µs" MaxPulse="2000 _µs" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" />
 
 <item itemtype="Subcircuit" CircId="Uno-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-492,-196" rotation="0" hflip="1" vflip="1" label="Uno-Master" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="AlderiAraujo_JoseAugusto/build/arduino.avr.uno/AlderiAraujo_JoseAugusto.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
 
 <item itemtype="Subcircuit" CircId="Uno-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,-196" rotation="0" hflip="-1" vflip="1" label="Uno-Slave" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
@@ -43,20 +43,6 @@
 <item itemtype="Connector" uid="Connector-4" startpinid="Resistor-11-lPin" endpinid="Ground-12-Gnd" pointList="-620,-188,-644,-188,-644,-180" />
 
 <item itemtype="Connector" uid="Connector-5" startpinid="Push-3-switch0pinN" endpinid="Uno-7-2" pointList="-532,-188,-508,-188,-508,-164,-484,-164" />
-
-<item itemtype="Connector" uid="Connector-7" startpinid="KeyPad-1-Pin4" endpinid="Uno-7-7" pointList="-588,-36,-588,-28,-612,-28,-612,-124,-484,-124" />
-
-<item itemtype="Connector" uid="Connector-8" startpinid="KeyPad-1-Pin5" endpinid="Uno-7-6" pointList="-572,-36,-572,-20,-620,-20,-620,-132,-484,-132" />
-
-<item itemtype="Connector" uid="Connector-9" startpinid="KeyPad-1-Pin6" endpinid="Uno-7-5" pointList="-556,-36,-556,-12,-628,-12,-628,-140,-484,-140" />
-
-<item itemtype="Connector" uid="Connector-19" startpinid="KeyPad-1-Pin1" endpinid="Uno-7-11" pointList="-540,-84,-484,-84" />
-
-<item itemtype="Connector" uid="Connector-20" startpinid="KeyPad-1-Pin2" endpinid="Uno-7-10" pointList="-540,-68,-516,-68,-516,-92,-484,-92" />
-
-<item itemtype="Connector" uid="Connector-21" startpinid="KeyPad-1-Pin0" endpinid="Uno-7-12" pointList="-540,-100,-532,-100,-532,-76,-484,-76" />
-
-<item itemtype="Connector" uid="Connector-22" startpinid="KeyPad-1-Pin3" endpinid="Uno-7-9" pointList="-540,-52,-524,-52,-524,-100,-484,-100" />
 
 <item itemtype="Connector" uid="Connector-23" startpinid="Uno-7-GND0" endpinid="Uno-8-GND0" pointList="-340,-116,-228,-116" />
 
@@ -99,5 +85,19 @@
 <item itemtype="Connector" uid="Connector-57" startpinid="Uno-8-GND2" endpinid="Servo-6-in1" pointList="-84,-60,-68,-60,-68,-68,4,-68" />
 
 <item itemtype="Connector" uid="Connector-63" startpinid="Servo-6-in0" endpinid="Rail-13-outnod" pointList="4,-52,-4,-52,-4,-4,20,-4,20,-12" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="KeyPad-1-Pin3" endpinid="Uno-7-9" pointList="-540,-52,-524,-52,-524,-100,-484,-100" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="KeyPad-1-Pin0" endpinid="Uno-7-12" pointList="-540,-100,-532,-100,-532,-76,-484,-76" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="KeyPad-1-Pin2" endpinid="Uno-7-10" pointList="-540,-68,-516,-68,-516,-92,-484,-92" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="KeyPad-1-Pin1" endpinid="Uno-7-11" pointList="-540,-84,-484,-84" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="KeyPad-1-Pin6" endpinid="Uno-7-5" pointList="-556,-36,-556,-12,-628,-12,-628,-140,-484,-140" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="KeyPad-1-Pin5" endpinid="Uno-7-6" pointList="-572,-36,-572,-20,-620,-20,-620,-132,-484,-132" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="KeyPad-1-Pin4" endpinid="Uno-7-7" pointList="-588,-36,-588,-28,-612,-28,-612,-124,-484,-124" />
 
 </circuit>
