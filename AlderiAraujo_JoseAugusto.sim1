@@ -10,21 +10,17 @@
 
 <item itemtype="Stepper" CircId="Stepper-5" mainComp="false" Show_id="true" Show_Val="false" Pos="316,-156" rotation="0" hflip="1" vflip="1" label="Stepper-5" idLabPos="-32,-62" labelrot="0" valLabPos="-14,36" valLabRot="0" Bipolar="false" Steps="32" Resistance="100 Ω" />
 
-<item itemtype="Servo" CircId="Servo-6" mainComp="false" Show_id="true" Show_Val="false" Pos="52,-68" rotation="0" hflip="1" vflip="-1" label="Servo-6" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _s/60º" MinPulse="1000 _µs" MaxPulse="2000 _µs" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" />
+<item itemtype="Servo" CircId="Servo-6" mainComp="false" Show_id="true" Show_Val="false" Pos="44,-56" rotation="90" hflip="1" vflip="-1" label="Servo-6" idLabPos="43.883,16.4934" labelrot="-90" valLabPos="-16,20" valLabRot="0" Speed="0.2 _s/60º" MinPulse="544 _µs" MaxPulse="2400 _µs" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" />
 
 <item itemtype="Subcircuit" CircId="Uno-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-492,-196" rotation="0" hflip="1" vflip="1" label="Uno-Master" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="AlderiAraujo_JoseAugusto/build/arduino.avr.uno/AlderiAraujo_JoseAugusto.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="AlderiAraujo_JoseAugusto/build/arduino.avr.uno/AlderiAraujo_JoseAugusto.ino.with_bootloader.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
 
 <item itemtype="Subcircuit" CircId="Uno-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,-196" rotation="0" hflip="-1" vflip="1" label="Uno-Slave" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="false" SerialMon="-1" />
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="AlderiAraujo_JoseAugusto_Slave/build/arduino.avr.uno/AlderiAraujo_JoseAugusto_Slave.ino.with_bootloader.hex" Auto_Load="false" saveEepr="true" MainMcu="false" SerialMon="-1" />
 </item>
 
-<item itemtype="Resistor" CircId="Resistor-11" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-604,-188" rotation="0" hflip="1" vflip="1" label="Resistor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-11.212,5.12945" valLabRot="0" Resistance="100 Ω" />
-
-<item itemtype="Ground" CircId="Ground-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,-164" rotation="0" hflip="1" vflip="1" label="Ground-12" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
-
-<item itemtype="Rail" CircId="Rail-13" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="20,-28" rotation="90" hflip="1" vflip="1" label="Rail-13" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+<item itemtype="Rail" CircId="Rail-13" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="116,-24" rotation="90" hflip="1" vflip="1" label="Rail-13" idLabPos="-5,-10" labelrot="-90" valLabPos="-17.6195,8.10731" valLabRot="-90" Voltage="5 V" />
 
 <item itemtype="Subcircuit" CircId="L293-14" mainComp="false" Show_id="true" Show_Val="false" Pos="-28,-268" rotation="0" hflip="1" vflip="1" label="L293-14" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
 
@@ -38,21 +34,13 @@
 
 <item itemtype="Node" CircId="Node-21" mainComp="false" Pos="212,-124" />
 
-<item itemtype="Connector" uid="Connector-1" startpinid="Uno-7-A5" endpinid="Aip31068_i2c-2PinSCL" pointList="-340,-180,-308,-180,-308,-204" />
+<item itemtype="Node" CircId="Node-24" mainComp="false" Pos="-308,-180" />
 
-<item itemtype="Connector" uid="Connector-2" startpinid="Aip31068_i2c-2PinSDA" endpinid="Uno-7-A4" pointList="-316,-204,-316,-172,-340,-172" />
-
-<item itemtype="Connector" uid="Connector-3" startpinid="Resistor-11-rPin" endpinid="Push-3-pinP0" pointList="-588,-188,-564,-188" />
-
-<item itemtype="Connector" uid="Connector-4" startpinid="Resistor-11-lPin" endpinid="Ground-12-Gnd" pointList="-620,-188,-644,-188,-644,-180" />
+<item itemtype="Node" CircId="Node-25" mainComp="false" Pos="-316,-172" />
 
 <item itemtype="Connector" uid="Connector-5" startpinid="Push-3-switch0pinN" endpinid="Uno-7-2" pointList="-532,-188,-508,-188,-508,-164,-484,-164" />
 
 <item itemtype="Connector" uid="Connector-23" startpinid="Uno-7-GND0" endpinid="Uno-8-GND0" pointList="-340,-116,-228,-116" />
-
-<item itemtype="Connector" uid="Connector-24" startpinid="Uno-7-A0" endpinid="Uno-8-A0" pointList="-340,-140,-228,-140" />
-
-<item itemtype="Connector" uid="Connector-25" startpinid="Uno-7-A1" endpinid="Uno-8-A1" pointList="-340,-148,-228,-148" />
 
 <item itemtype="Connector" uid="Connector-31" startpinid="L293-14-1A" endpinid="Uno-8-2" pointList="-36,-260,-60,-260,-60,-164,-84,-164" />
 
@@ -70,8 +58,6 @@
 
 <item itemtype="Connector" uid="Connector-43" startpinid="ULN2803-15-In3" endpinid="Uno-8-8" pointList="132,-172,-12,-172,-12,-108,-84,-108" />
 
-<item itemtype="Connector" uid="Connector-44" startpinid="Servo-6-in2" endpinid="Uno-8-11" pointList="4,-84,-84,-84" />
-
 <item itemtype="Connector" uid="Connector-47" startpinid="ULN2803-15-In4" endpinid="Uno-8-9" pointList="132,-164,-4,-164,-4,-100,-84,-100" />
 
 <item itemtype="Connector" uid="Connector-48" startpinid="Ground-17-Gnd" endpinid="ULN2803-15-Gnd" pointList="116,-108,116,-124,132,-124" />
@@ -84,9 +70,7 @@
 
 <item itemtype="Connector" uid="Connector-56" startpinid="Stepper-5-PinB2" endpinid="ULN2803-15-Out4" pointList="244,-124,220,-124,220,-164,180,-164" />
 
-<item itemtype="Connector" uid="Connector-57" startpinid="Uno-8-GND2" endpinid="Servo-6-in1" pointList="-84,-60,-68,-60,-68,-68,4,-68" />
-
-<item itemtype="Connector" uid="Connector-63" startpinid="Servo-6-in0" endpinid="Rail-13-outnod" pointList="4,-52,-4,-52,-4,-4,20,-4,20,-12" />
+<item itemtype="Connector" uid="Connector-63" startpinid="Servo-6-in0" endpinid="Rail-13-outnod" pointList="60,-8,116,-8" />
 
 <item itemtype="Connector" uid="Connector-22" startpinid="KeyPad-1-Pin3" endpinid="Uno-7-9" pointList="-540,-52,-524,-52,-524,-100,-484,-100" />
 
@@ -107,5 +91,23 @@
 <item itemtype="Connector" uid="Connector-66" startpinid="Stepper-5-PinCo" endpinid="Node-21-0" pointList="244,-156,212,-156,212,-124" />
 
 <item itemtype="Connector" uid="Connector-67" startpinid="Node-21-2" endpinid="ULN2803-15-Com" pointList="212,-124,180,-124" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Aip31068_i2c-2PinSCL" endpinid="Node-24-1" pointList="-308,-204,-308,-180" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="Uno-7-A5" endpinid="Node-24-0" pointList="-340,-180,-308,-180" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Node-24-2" endpinid="Uno-8-A5" pointList="-308,-180,-228,-180" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Aip31068_i2c-2PinSDA" endpinid="Node-25-1" pointList="-316,-204,-316,-172" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Uno-7-A4" endpinid="Node-25-0" pointList="-340,-172,-316,-172" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="Node-25-2" endpinid="Uno-8-A4" pointList="-316,-172,-228,-172" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="Push-3-pinP0" endpinid="Uno-7-GND2" pointList="-564,-188,-636,-188,-636,-4,-500,-4,-500,-60,-484,-60" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="Uno-8-11" endpinid="Servo-6-in2" pointList="-84,-84,-4,-84,-4,4,28,4,28,-8" />
+
+<item itemtype="Connector" uid="Connector-85" startpinid="Servo-6-in1" endpinid="Uno-8-GND2" pointList="44,-8,44,12,-12,12,-12,-60,-84,-60" />
 
 </circuit>
