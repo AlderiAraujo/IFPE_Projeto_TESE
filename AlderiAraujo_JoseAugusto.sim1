@@ -32,6 +32,8 @@
 
 <item itemtype="Rail" CircId="Rail-20" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="212,-76" rotation="90" hflip="1" vflip="-1" label="Rail-20" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
 
+<item itemtype="Ground" CircId="Ground-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-596,-164" rotation="0" hflip="1" vflip="1" label="Ground-26" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
 <item itemtype="Node" CircId="Node-21" mainComp="false" Pos="212,-124" />
 
 <item itemtype="Node" CircId="Node-24" mainComp="false" Pos="-308,-180" />
@@ -104,10 +106,10 @@
 
 <item itemtype="Connector" uid="Connector-82" startpinid="Node-25-2" endpinid="Uno-8-A4" pointList="-316,-172,-228,-172" />
 
-<item itemtype="Connector" uid="Connector-83" startpinid="Push-3-pinP0" endpinid="Uno-7-GND2" pointList="-564,-188,-636,-188,-636,-4,-500,-4,-500,-60,-484,-60" />
-
 <item itemtype="Connector" uid="Connector-84" startpinid="Uno-8-11" endpinid="Servo-6-in2" pointList="-84,-84,-4,-84,-4,4,28,4,28,-8" />
 
 <item itemtype="Connector" uid="Connector-85" startpinid="Servo-6-in1" endpinid="Uno-8-GND2" pointList="44,-8,44,12,-12,12,-12,-60,-84,-60" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="Push-3-pinP0" endpinid="Ground-26-Gnd" pointList="-564,-188,-596,-188,-596,-180" />
 
 </circuit>
